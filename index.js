@@ -18,8 +18,6 @@ app.get('/about', (req, res) => {
     res.render('about');
 });
 
-app.get()
-
 // custom 404 error page
 app.use((req, res) => {
     res.status(404);
